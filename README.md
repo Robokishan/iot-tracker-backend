@@ -75,7 +75,7 @@ npm run start
 
 ### First build Docker image
 ```
-docker build -t iot-backend -f Dockefile .
+docker build -t iot-backend -f Dockerfile .
 ```
 ### For development
 ```
