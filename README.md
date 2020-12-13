@@ -74,16 +74,16 @@ npm run start
 
 ### First build Docker image
 ```
--   docker build -t iot-backend -f Dockefile .
+  docker build -t iot-backend -f Dockefile .
 ```
 ### For development
 ```
--   docker run -d -p 3000:3000 -v $PWD:/usr/src/app --name iot-backend -ti iot-backend /bin/bash
+  docker run -d -p 3000:3000 -v $PWD:/usr/src/app --name iot-backend -ti iot-backend /bin/bash
 ```
 
 ### For Production
 ```
--   docker run --rm -p 3000:3000 --name iot-backend -ti iot-backend
+  docker run --rm -p 3000:3000 --name iot-backend -ti iot-backend
 ```
   
 
