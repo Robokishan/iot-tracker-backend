@@ -33,7 +33,17 @@
 
 ### 🏠 [Homepage](https://github.com/Robokishan/xoxo-backend#readme)
 
-  
+# Features
+
+ - Role based permission
+ - Seprate login for admin, Client and and device
+ - Device is acted as Human this way we can also track employees with the android or ios app
+ - MQTT, LWM2M, Spark-protocol Supported
+ - RS485, RS232 Support
+ - Can Bus support
+ - Quick emergency button support
+ - Use info , Jwt token based authentication
+ 
 
 ## Install
 
