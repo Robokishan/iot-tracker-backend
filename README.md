@@ -45,6 +45,7 @@
  - User info , Jwt token based authentication
  - Profile Picture upload and remove
  - User can add Assets, delete assets, edit assets
+ - List of all apis will available after running the project
  
 
 ## Install
