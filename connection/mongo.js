@@ -1,8 +1,7 @@
 'use strict';
 const mongoose = require('mongoose');
-var fs = require('fs'),
-var mongoConfig = process.env.MONGODB_URL || JSON.parse(fs.readFileSync('mongodb.json', 'UTF-8'));
-const dbURL = mongoConfig.url
+var mongoConfig = process.env.MONGODB_URL;
+const dbURL = mongoConfig
 
 async function connectToDB() {
     try {
@@ -14,7 +13,7 @@ async function connectToDB() {
         
         console.log('Succefully Connected To MongoDB');
     } catch (error) {
-        console.error('Database Connection Failed');
+        console.error('Database Connection Failed',error);
         // process.exit(1);
     }
 
