@@ -42,7 +42,9 @@
  - RS485, RS232 Support
  - Can Bus support
  - Quick emergency button support
- - Use info , Jwt token based authentication
+ - User info , Jwt token based authentication
+ - Profile Picture upload and remove
+ - User can add Assets, delete assets, edit assets
  
 
 ## Install
