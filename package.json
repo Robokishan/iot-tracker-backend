@@ -1,0 +1,55 @@
+{
+  "name": "xoxo-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robokishan/xoxo-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robokishan/xoxo-backend/issues"
+  },
+  "homepage": "https://github.com/Robokishan/xoxo-backend#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^4.7.0",
+    "agenda": "^3.1.0",
+    "agendash": "^1.0.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cli-table3": "^0.5.1",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "email-verify": "^0.2.1",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^4.0.1",
+    "express-subdomain": "^1.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "mongoose-uuid2": "^2.3.0",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^1.19.4",
+    "paytm-pg-node-sdk": "^1.0.1",
+    "pg": "^4.5.7",
+    "pg-pool": "^2.0.10",
+    "pg-promise": "^10.2.1",
+    "promise": "^8.0.3",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4",
+    "uuid": "^3.4.0",
+    "validator": "^12.2.0"
+  }
+}

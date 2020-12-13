@@ -1,0 +1,1 @@
+module.exports = require('./environments/paytm_' + process.env.NODE_ENV + '.js');

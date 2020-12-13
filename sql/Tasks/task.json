@@ -1,0 +1,7 @@
+login : userid, accestoken, picture url, asset type, 
+overview : asset list->assetid, data ->d{}
+device data : [assetid,d->{}]
+asset : ->
+group: 
+    asset 1 , asset 2, asset 3
+

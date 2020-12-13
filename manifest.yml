@@ -1,0 +1,7 @@
+---
+applications:
+- name:    quadx-backend
+  buildpack:
+  command: npm start
+  path: .
+  memory:  256M

@@ -1,0 +1,7 @@
+# dependencies
+node_modules
+.env
+.env.production
+firebase-adminsdk.json
+push.production.sh
+mongodb.json
