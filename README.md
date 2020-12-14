@@ -37,16 +37,18 @@
 
  - Role based permission
  - Seprate login for admin, Client and and device
- - Device is acted as Human this way we can also track employees with the android or ios app
+ - Device is acted as Human so that we can also track employees with the android or ios app
  - MQTT, LWM2M, Spark-protocol Supported
- - RS485, RS232 Support
- - Can Bus support
- - Quick emergency button support
  - User info , Jwt token based authentication
  - Profile Picture upload and remove
  - User can add Assets, delete assets, edit assets
  - List of all apis will available after running the project
- 
+
+# Tasklist
+
+ - RS485, RS232 Support
+ - Can Bus support
+ - Quick emergency button support
 
 ## Install
 
