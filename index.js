@@ -76,7 +76,14 @@ app.listen(config.PORT, function() {
         routeList.forEach((link,index) => {
             let done = doneapis.includes(link.path) ? "✅ ": "📌";
             let webAdminCheck = webAdmin.includes(link.path) ? "🔐" : " ";
-            table.push([index,link.path, colors.red(link.methods[0]),webAdminCheck, done]);
+            let method_message  = "" ;
+            for (let i=0; i < link.methods.length; i++ ){
+                method_message += link.methods[i];
+                if((link.methods.length > 1) && (i < (link.methods.length - 1))){
+                    method_message += ", ";
+                }
+            }
+            table.push([index,link.path, colors.red(method_message),webAdminCheck, done]);
         })
         console.log(table.toString());
         console.log('********************************************\n');
