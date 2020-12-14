@@ -64,6 +64,7 @@ npm install
 
 ## Usage
 
+- You need to create .env from .env.template and then use your credentials for postgresql , mongodb and paytm 
   
 
 ```sh
