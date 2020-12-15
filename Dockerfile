@@ -1,8 +1,8 @@
-# docker build -t xoxo-backend -f Dockerfile .
+# docker build -t iot-backend -f Dockerfile .
 # development
-# docker run -d -p 5000:5000 -v $PWD:/usr/src/app --name xoxo-backend -ti xoxo-backend /bin/bash
+# docker run -d -p 5000:5000 -v $PWD:/usr/src/app --name iot-backend -ti xoxo-backend /bin/bash
 # testing
-# docker run --rm -p 5000:5000 --name xoxo-backend -ti xoxo-backend
+# docker run --rm -p 5000:5000 --name iot-backend -ti iot-backend
 # docker run -p 80:80 -e "PGADMIN_DEFAULT_EMAIL=postgres" -e "PGADMIN_DEFAULT_PASSWORD=postgres" -d dpage/pgadmin4
 FROM node:12
 WORKDIR /usr/src/app
