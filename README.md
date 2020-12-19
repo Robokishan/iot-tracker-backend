@@ -44,6 +44,7 @@
  - User can add Assets, delete assets, edit assets
  - List of all apis will available after running the project
  - Swagger documentation
+ - Multiarch support [ raspberry pi, beaglebone black and imx6ull other armv7 boards ]
 
 # Tasklist
 
