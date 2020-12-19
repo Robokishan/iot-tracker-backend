@@ -17,8 +17,7 @@ jobs:
         uses: crazy-max/ghaction-docker-buildx@v1
         with:
           version: latest
-          
-      - name: iot-backend
+      - name: build the image
       run: |
         docker buildx build \
           --tag robokishan/iot-backend:sample \
