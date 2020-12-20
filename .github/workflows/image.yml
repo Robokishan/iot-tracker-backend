@@ -2,9 +2,9 @@ name: iot-backend
 
 on:
   push:
-    branches: production
+    branches: master
   pull_request:
-    branches: production
+    branches: master
 
 jobs:
   build:
