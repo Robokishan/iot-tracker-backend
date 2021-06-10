@@ -26,7 +26,8 @@ var initApp = function () {
                 "https://quadx-backend.eu-gb.mybluemix.net",
                 "http://localhost:5000",
                 "https://quadx-admin.web.app",
-                "http://quadx-admin.web.app"
+                "http://quadx-admin.web.app",
+                "http://xoxodashboard.herokuapp.com"
             ]
         }))
 
